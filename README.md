@@ -10,6 +10,8 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 ## IT Architecture
 
+All computing devices connect to the `FerrisNetwork` Wifi WAP on the float base as follows:
+
 ![Brain Components](images/Ferris_Wheel_Brain.jpeg)
 
 ## Logins
@@ -38,7 +40,7 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 - Controller A: `192.168.1.75`
 - Controller B: `192.168.1.76`
 
-### Last Resport Access WiFi (for access debugging)
+### Last Resort Access WiFi (for access debugging)
 
 - Controller A: WiFi `Falcon_F16V5_67A1`, IP address `192.168.8.1`
 - Controller B: WiFi `Falcon_F16V5_F9E9`, IP address `192.168.8.1`
