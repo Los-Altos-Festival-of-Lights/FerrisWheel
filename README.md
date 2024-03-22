@@ -6,11 +6,11 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 ## Design
 
-[Overall Design](images/Ferris_Wheel_IT_Architecture.png)
+![Overall Design](images/Ferris_Wheel_IT_Architecture.png)
 
 ## IT Architecture
 
-[Brain Components](images/Ferris_Wheel_Brain.jpeg)
+![Brain Components](images/Ferris_Wheel_Brain.jpeg)
 
 ## Logins
 
