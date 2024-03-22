@@ -23,3 +23,17 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 - admin/festivaloflights
 - fpp/festivaloflights
+
+### Network IPs
+
+### WiFi (production)
+
+- Pi: `192.168.8.1`
+- Controller A: `192.168.8.2`
+- Controller B: `192.168.8.3`
+
+### Wired Ethernet (prototype)
+
+- Pi: `192.168.1.212`
+- Controller A: `192.168.1.75`
+- Controller B: `192.168.1.76`
