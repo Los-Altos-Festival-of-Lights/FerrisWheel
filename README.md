@@ -14,12 +14,12 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 ## Logins
 
-### Raspberry Pi:
+### Raspberry Pi Player:
 
 - admin/falcon
 - fpp/festivaloflights
 
-### F16v5 Controllers A & B
+### F16v5 Lighting Controllers A & B
 
 - admin/festivaloflights
 - fpp/festivaloflights
