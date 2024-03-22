@@ -24,7 +24,7 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 - admin/festivaloflights
 - fpp/festivaloflights
 
-### Network IPs
+## Network IPs
 
 ### WiFi (production)
 
