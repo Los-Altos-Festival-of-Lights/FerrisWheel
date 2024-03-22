@@ -21,5 +21,5 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 ### F16v5 Controllers A & B
 
-- admin/
+- admin/festivaloflights
 - fpp/festivaloflights
