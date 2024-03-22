@@ -14,6 +14,8 @@ All computing devices connect to the `FerrisNetwork` Wifi WAP on the float base 
 
 ![Overall Design](images/Ferris_Wheel_IT_Architecture.png)
 
+The `FerrisNetwork` WPA pre shared key is `festivaloflights`.
+
 ## Logins
 
 ### Raspberry Pi Player:
