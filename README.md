@@ -26,14 +26,20 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 ## Network IPs
 
-### WiFi (production)
+### WiFi (for production)
 
-- Pi: `192.168.8.1`
-- Controller A: `192.168.8.2`
-- Controller B: `192.168.8.3`
+- Pi: `192.168.9.1`
+- Controller A: `192.168.9.2`
+- Controller B: `192.168.9.3`
 
-### Wired Ethernet (prototype)
+### Wired Ethernet Static IPs (for initial configuration)
 
 - Pi: `192.168.1.212`
 - Controller A: `192.168.1.75`
 - Controller B: `192.168.1.76`
+
+### Last Resport Access WiFi (for access debugging)
+
+- Controller A: WiFi `Falcon_F16V5_67A1`, IP address `192.168.8.1`
+- Controller B: WiFi `Falcon_F16V5_F9E9`, IP address `192.168.8.1`
+
