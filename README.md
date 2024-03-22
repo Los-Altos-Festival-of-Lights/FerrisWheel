@@ -6,13 +6,13 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 ## Design
 
-![Overall Design](images/Ferris_Wheel_IT_Architecture.png)
+![Brain Components](images/Ferris_Wheel_Brain.jpeg)
 
 ## IT Architecture
 
 All computing devices connect to the `FerrisNetwork` Wifi WAP on the float base as follows:
 
-![Brain Components](images/Ferris_Wheel_Brain.jpeg)
+![Overall Design](images/Ferris_Wheel_IT_Architecture.png)
 
 ## Logins
 
