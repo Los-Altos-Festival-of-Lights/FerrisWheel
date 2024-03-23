@@ -22,13 +22,13 @@ All computing devices connect to the `FerrisNetwork` Wifi WAP on the float base 
 - Controller A: `192.168.10.20`
 - Controller B: `192.168.11.30`
 
-### WiFi (for production)
+### WiFi Static IPs (for production)
 
 - Raspberry Pi Player: `192.168.10.11`
 - Controller A: `192.168.10.21`
 - Controller B: `192.168.10.31`
 
-### Last Resort Access WiFi (for access debugging)
+### Last Resort Access WiFi IPs (for access debugging)
 
 - Raspberry Pi Player: WiFi `FPP`, IP address `192.168.8.1`
 - Controller A: WiFi `Falcon_F16V5_67A1`, IP address `192.168.8.1`
