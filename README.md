@@ -12,35 +12,21 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 All computing devices connect to the `FerrisNetwork` Wifi WAP on the float base as follows:
 
-![Overall Design](images/Ferris_Wheel_IT_Architecture.png)
-
-The `FerrisNetwork` WPA pre shared key is `festivaloflights`.
-
-## Logins
-
-### Raspberry Pi Player:
-
-- admin/falcon
-- fpp/festivaloflights
-
-### F16v5 Lighting Controllers A & B
-
-- admin/festivaloflights
-- fpp/festivaloflights
+![Overall Design](images/Ferris_Wheel_IT_Architecture.png)ß
 
 ## Network IPs
 
-### WiFi (for production)
-
-- Pi: `192.168.9.1`
-- Controller A: `192.168.9.2`
-- Controller B: `192.168.9.3`
-
 ### Wired Ethernet Static IPs (for initial configuration)
 
-- Pi: `192.168.1.212`
-- Controller A: `192.168.1.75`
-- Controller B: `192.168.1.76`
+- Pi: `192.168.10.10`
+- Controller A: `192.168.10.20`
+- Controller B: `192.168.11.30`
+
+### WiFi (for production)
+
+- Pi: `192.168.10.11`
+- Controller A: `192.168.10.21`
+- Controller B: `192.168.10.31`
 
 ### Last Resort Access WiFi (for access debugging)
 
