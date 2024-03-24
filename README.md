@@ -16,15 +16,14 @@ All computing devices connect to the `FerrisNetwork` Wifi WAP on the float base 
 
 ## Network IPs
 
-### Wired Ethernet Static IPs (for initial configuration)
+### Wired Ethernet Static IPs (for show development)
 
 - Raspberry Pi Player: `192.168.10.10`
 - Controller A: `192.168.10.20`
-- Controller B: `192.168.11.30`
+- Controller B: `192.168.10.30`
 
-### WiFi Static IPs (for production)
+### WiFi Static IPs (for show timing)
 
-- Raspberry Pi Player: `192.168.10.11`
 - Controller A: `192.168.10.21`
 - Controller B: `192.168.10.31`
 
