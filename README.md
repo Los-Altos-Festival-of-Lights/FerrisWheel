@@ -10,7 +10,7 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 ## IT Architecture
 
-All computing devices connect to the `FerrisNetwork` Wifi WAP on the float base as follows:
+All computing devices connect to a Wifi 6 multband, two-device-mesh at `FerrisNetwork` or `FerrisNetwork_iot`, a router on the float base configured as follows:
 
 ![Overall Design](images/Ferris_Wheel_IT_Architecture.png)ß
 
@@ -18,6 +18,7 @@ All computing devices connect to the `FerrisNetwork` Wifi WAP on the float base 
 
 ### Wired Ethernet Static IPs (for show development)
 
+- `FerrisNetwork_iot` router `192.168.10.254`
 - Raspberry Pi Player: `192.168.10.10`
 - Controller A: `192.168.10.20`
 - Controller B: `192.168.10.30`
