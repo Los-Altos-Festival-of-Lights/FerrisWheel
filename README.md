@@ -10,7 +10,7 @@ Orchestration of lighting and music is controlled by a single [Raspberry Pi CPU]
 
 ## IT Architecture
 
-All computing devices connect to a Wifi 6 two-device-mesh at `FerrisNetwork` or `FerrisNetwork_iot`, a router on the float base configured as follows:
+All computing devices connect to a Wifi 6 multband, two-device-mesh at `FerrisNetwork` or `FerrisNetwork_iot`, a router on the float base configured as follows:
 
 ![Overall Design](images/Ferris_Wheel_IT_Architecture.png)ß
 
