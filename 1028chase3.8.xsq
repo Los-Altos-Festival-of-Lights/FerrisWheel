@@ -68,6 +68,10 @@
     <Effect>E_CHECKBOX_PRE_2017_7=0,E_CHECKBOX_Shimmer_Use_All_Colors=0,E_SLIDER_Shimmer_Duty_Factor=50,E_TEXTCTRL_Shimmer_Cycles=7.5</Effect>
     <Effect>E_CHECKBOX_PRE_2017_7=0,E_CHECKBOX_Shimmer_Use_All_Colors=0,E_SLIDER_Shimmer_Duty_Factor=50,E_TEXTCTRL_Shimmer_Cycles=11.5</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=20,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=3,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=6</Effect>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=3,E_SLIDER_Butterfly_Style=1</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=30,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=3.8</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=30,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=0.0,E_TEXTCTRL_Chase_Rotations=1</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="192" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -265,48 +269,64 @@
     </Element>
     <Element type="model" name="Single Line-7">
       <EffectLayer>
-        <Effect ref="10" name="Butterfly" startTime="400" endTime="11700" palette="4"/>
+        <Effect ref="36" name="Butterfly" startTime="400" endTime="11700" palette="4"/>
         <Effect ref="4" name="SingleStrand" id="1" startTime="11700" endTime="23550" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="2" startTime="23550" endTime="34900" palette="4"/>
-        <Effect ref="4" name="SingleStrand" id="3" startTime="34900" endTime="46750" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="4" startTime="46750" endTime="57650" palette="4"/>
+        <Effect ref="36" name="Butterfly" id="2" startTime="23550" endTime="34900" palette="4"/>
+        <Effect ref="37" name="SingleStrand" id="3" startTime="34900" endTime="46750" palette="2"/>
+        <Effect ref="36" name="Butterfly" id="4" startTime="46750" endTime="57650" palette="4"/>
         <Effect ref="4" name="SingleStrand" id="5" startTime="57650" endTime="69950" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="6" startTime="69950" endTime="81300" palette="4"/>
+        <Effect ref="36" name="Butterfly" id="6" startTime="69950" endTime="81300" palette="4"/>
         <Effect ref="4" name="SingleStrand" id="7" startTime="81300" endTime="93100" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="8" startTime="93100" endTime="104500" palette="4"/>
+        <Effect ref="36" name="Butterfly" id="8" startTime="93100" endTime="104500" palette="4"/>
         <Effect ref="4" name="SingleStrand" id="9" startTime="104500" endTime="116350" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="10" startTime="116350" endTime="127700" palette="4"/>
+        <Effect ref="36" name="Butterfly" id="10" startTime="116350" endTime="127700" palette="4"/>
         <Effect ref="4" name="SingleStrand" id="11" startTime="127700" endTime="139550" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="12" startTime="139550" endTime="150900" palette="4"/>
+        <Effect ref="36" name="Butterfly" id="12" startTime="139550" endTime="150900" palette="4"/>
         <Effect ref="4" name="SingleStrand" id="13" startTime="150900" endTime="162750" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="14" startTime="162750" endTime="174100" palette="4"/>
+        <Effect ref="36" name="Butterfly" id="14" startTime="162750" endTime="174100" palette="4"/>
         <Effect ref="4" name="SingleStrand" id="15" startTime="174100" endTime="185950" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="16" startTime="185950" endTime="197300" palette="4"/>
+        <Effect ref="36" name="Butterfly" id="16" startTime="185950" endTime="197300" palette="4"/>
         <Effect ref="4" name="SingleStrand" id="17" startTime="197300" endTime="209150" palette="1"/>
         <Effect ref="4" name="SingleStrand" id="18" startTime="220500" endTime="232350" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Single Line-8">
       <EffectLayer>
-        <Effect ref="10" name="Butterfly" startTime="400" endTime="11700" palette="4"/>
-        <Effect ref="1" name="SingleStrand" selected="1" id="1" startTime="11700" endTime="23550" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="2" startTime="23550" endTime="34900" palette="4"/>
-        <Effect ref="4" name="SingleStrand" id="3" startTime="34900" endTime="46750" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="4" startTime="46750" endTime="57650" palette="4"/>
-        <Effect ref="4" name="SingleStrand" id="5" startTime="57650" endTime="69950" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="6" startTime="69950" endTime="81300" palette="4"/>
-        <Effect ref="4" name="SingleStrand" id="7" startTime="81300" endTime="93100" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="8" startTime="93100" endTime="104500" palette="4"/>
-        <Effect ref="4" name="SingleStrand" id="9" startTime="104500" endTime="116350" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="10" startTime="116350" endTime="127700" palette="4"/>
-        <Effect ref="4" name="SingleStrand" id="11" startTime="127700" endTime="139550" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="12" startTime="139550" endTime="150900" palette="4"/>
-        <Effect ref="4" name="SingleStrand" id="13" startTime="150900" endTime="162750" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="14" startTime="162750" endTime="174100" palette="4"/>
-        <Effect ref="4" name="SingleStrand" id="15" startTime="174100" endTime="185950" palette="1"/>
-        <Effect ref="10" name="Butterfly" id="16" startTime="185950" endTime="197300" palette="4"/>
-        <Effect ref="4" name="SingleStrand" id="17" startTime="197300" endTime="209150" palette="1"/>
-        <Effect ref="4" name="SingleStrand" id="18" startTime="220500" endTime="232350" palette="1"/>
+        <Effect ref="36" name="Butterfly" startTime="400" endTime="11050" palette="4"/>
+        <Effect ref="38" name="SingleStrand" selected="1" id="1" startTime="11050" endTime="23550" palette="1"/>
+        <Effect ref="36" name="Butterfly" id="4" startTime="23550" endTime="34900" palette="4"/>
+        <Effect ref="39" name="SingleStrand" id="5" startTime="34900" endTime="38400" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="6" startTime="38700" endTime="42200" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="7" startTime="42200" endTime="43950" palette="1"/>
+        <Effect ref="36" name="Butterfly" id="8" startTime="46750" endTime="57650" palette="4"/>
+        <Effect ref="39" name="SingleStrand" id="9" startTime="57650" endTime="61150" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="10" startTime="61450" endTime="64950" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="11" startTime="64950" endTime="66700" palette="1"/>
+        <Effect ref="36" name="Butterfly" id="12" startTime="69950" endTime="81300" palette="4"/>
+        <Effect ref="39" name="SingleStrand" id="13" startTime="81300" endTime="84800" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="14" startTime="85100" endTime="88600" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="15" startTime="88600" endTime="90350" palette="1"/>
+        <Effect ref="36" name="Butterfly" id="16" startTime="93100" endTime="104500" palette="4"/>
+        <Effect ref="39" name="SingleStrand" id="17" startTime="104500" endTime="108000" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="18" startTime="108300" endTime="111800" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="19" startTime="111800" endTime="113550" palette="1"/>
+        <Effect ref="36" name="Butterfly" id="20" startTime="116350" endTime="127700" palette="4"/>
+        <Effect ref="39" name="SingleStrand" id="21" startTime="127700" endTime="131200" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="22" startTime="131500" endTime="135000" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="23" startTime="135000" endTime="136750" palette="1"/>
+        <Effect ref="36" name="Butterfly" id="24" startTime="139550" endTime="150900" palette="4"/>
+        <Effect ref="39" name="SingleStrand" id="25" startTime="150900" endTime="154400" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="26" startTime="154700" endTime="158200" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="27" startTime="158200" endTime="159950" palette="1"/>
+        <Effect ref="36" name="Butterfly" id="28" startTime="162750" endTime="174100" palette="4"/>
+        <Effect ref="39" name="SingleStrand" id="29" startTime="174100" endTime="177600" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="30" startTime="177900" endTime="181400" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="31" startTime="181400" endTime="183150" palette="1"/>
+        <Effect ref="36" name="Butterfly" id="32" startTime="185950" endTime="197300" palette="4"/>
+        <Effect ref="39" name="SingleStrand" id="33" startTime="197350" endTime="200850" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="34" startTime="201150" endTime="204650" palette="1"/>
+        <Effect ref="39" name="SingleStrand" id="35" startTime="204650" endTime="206400" palette="1"/>
+        <Effect ref="4" name="SingleStrand" id="36" startTime="220500" endTime="232350" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Single Line-9">
